@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Search Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background: #34495e;
+      padding: 0.8em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 1em;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .search-bar input[type="text"] {
+      width: 80%;
+      padding: 0.7em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .search-bar button {
+      padding: 0.7em 1.2em;
+      background: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      margin-left: 0.5em;
+      cursor: pointer;
+    }
+
+    .job-listing {
+      margin-top: 2em;
+    }
+
+    .job {
+      border-bottom: 1px solid #ddd;
+      padding: 1em 0;
+    }
+
+    .job h3 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    .job p {
+      margin: 0.3em 0;
+    }
+
+    .apply-button {
+      display: inline-block;
+      margin-top: 0.5em;
+      background: #27ae60;
+      color: white;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #ecf0f1;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Job Search Hub</h1>
+    <p>Find your next opportunity here</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Browse Jobs</a>
+    <a href="#">Post a Job</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search job titles, companies, or keywords">
+      <button>Search</button>
+    </div>
+
+    <div class="job-listing">
+      <div class="job">
+        <h3>Frontend Developer</h3>
+        <p><strong>Company:</strong> Creative Tech</p>
+        <p><strong>Location:</strong> Remote</p>
+        <p><strong>Description:</strong> Build user interfaces with React, HTML, and CSS.</p>
+        <a class="apply-button" href="#">Apply Now</a>
+      </div>
+
+      <div class="job">
+        <h3>Marketing Analyst</h3>
+        <p><strong>Company:</strong> DataDriven Co.</p>
+        <p><strong>Location:</strong> New York, NY</p>
+        <p><strong>Description:</strong> Analyze campaign performance and market trends.</p>
+        <a class="apply-button" href="#">Apply Now</a>
+      </div>
+
+      <div class="job">
+        <h3>UX Designer</h3>
+        <p><strong>Company:</strong> Pixel Perfect Studio</p>
+        <p><strong>Location:</strong> San Francisco, CA</p>
+        <p><strong>Description:</strong> Design engaging, user-centered digital experiences.</p>
+        <a class="apply-button" href="#">Apply Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Job Search Hub. All rights reserved.
+  </footer>
+
+</body>
+</html>
